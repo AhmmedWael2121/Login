@@ -1,0 +1,100 @@
+:root {
+    --main-font: "Titillium Web", sans-serif;
+    --main-font-colr: #0a1207;
+    --sec-font-colr: #F1FFFF;
+    --main-bg-colr: #665c80;
+    --card-bg-colr: #FAF9F6;
+
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+
+}
+
+.bg-colr {
+    background-color: var(--main-bg-colr);
+}
+.card-bg-colr {
+    background-color: var(--card-bg-colr);
+}
+.main-colr {
+    color: var(--main-font-colr);
+}
+
+.main-font {
+    font-family: var(--main-font);
+}
+
+.sec-colr {
+    color: var(--sec-font-colr);
+}
+
+h1 {
+    font-size: 2.6rem;
+}
+
+/* ---------------------------- */
+/*  Main Styles  */
+/* ---------------------------- */
+
+.login-btn {
+    background-color: var(--main-bg-colr);
+    transition: 0.3s ease-in-out;
+}
+.welcome{
+    transition: 0.5s ease-in-out;
+    background-color: var(--main-bg-colr);
+    color: var(--card-bg-colr);
+}
+.welcome:hover{
+    background-color: #5b2b2b;
+    color: var(--sec-font-colr);
+    
+}
+
+.login-btn:hover{
+    background-color: #5b2b2b;
+    color: var(--sec-font-colr);
+}
+input {
+    background-color: transparent !important;
+    color: #000000 !important;
+}
+
+input::placeholder{
+    color: #615d5d !important;
+}
+.shad{
+    
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, .5) !important;/* Darker than Bootstrap's default */
+}
+
+#logout-btn{
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: 0.3s ease-in-out;
+    color: var(--card-bg-colr);
+    border: var(--card-bg-colr) solid 1px;
+    
+}
+#logout-btn:hover{
+
+    color: var(--main-font-colr);
+    background-color:var(--card-bg-colr);
+
+}
+#Samrt-login{
+    color: var(--card-bg-colr);
+    font-weight: normal;
+    font-size: 1.3rem;
+    
+}

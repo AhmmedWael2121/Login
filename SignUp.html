@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./images/user.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="CSS/bootstrap.css">
+        <link rel="stylesheet" href="CSS/all.min.css">
+        <link rel="stylesheet" href="CSS/main.css">
+        <title>sign Up</title>
+    </head>
+
+    <body class="bg-colr vh-100">
+        <section class=" my-5">
+            <div
+                class="my-5 p-5 container text-center d-flex flex-column gap-3 col-12 justify-content-center align-items-center">
+                <div
+                    class="row shad p-3 rounded-4 card-bg-colr d-flex flex-column gap-3 col-8 justify-content-center align-items-center ">
+                    <h1 class="text-center main-colr fw-light text-capitalize ">smart sign up system</h1>
+                    <div class="layer p-5">
+                        <!-- ---------------------------------- -->
+                        <!-- 
+                        input fields:
+                            User Name -> shows anly in Sign Up page
+                            Email -> shows in both pages
+                            Password -> shows in both pages
+                        -->
+
+                        <!-- user name (shows only in sign up pprocess) -->
+                        <input type="text" class="form-control" id="userName" placeholder="Enter your name">
+                        <label for="userName" class="form-label my-2  fw-bold"></label>
+
+                        <!-- Sign Up Email -->
+                        <label for="signUpEmail" class="form-label my-2  fw-bold"></label>
+                        <input type="email" class="form-control" id="signUpEmail" 
+                            placeholder="example@gmail.com">
+
+                        <!-- Sign Up password -->
+                        <label for="signUpPassword" class="form-label fw-bold "></label>
+                        <input type="password" class="form-control bg-colr" id="signUpPassword"
+                            placeholder="Enter your password">
+                            <p id="passfollow"></p>
+                        
+
+
+                        <!-- -------------------------- -->
+                        <p id="success" class=" my-3"></p>
+                        <!-- btn container contains: btn login && btn sign Up -->
+                        <button class="btn col-12  my-3 login-btn signUp-btn my-2 text-center text-white main-font fs-4">
+                            SignUp</button>
+                        <!-- ------------------------ -->
+                        <p class="  text-center main-font fs-5 text-dark"> You have an account? <a
+                                class="fs-5 text-dark main-font" href="login.html" target="_self">Sign in</a></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <script src="JS/bootstrap.js"></script>
+        <script src="JS/all.min.js"></script>
+        <script src="JS/index.js"></script>
+    </body>
+
+</html>

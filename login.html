@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./images/user.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="CSS/bootstrap.css">
+        <link rel="stylesheet" href="CSS/all.min.css">
+        <link rel="stylesheet" href="CSS/main.css">
+        <title>Login</title>
+    </head>
+
+
+
+    <body class="bg-colr vh-100">
+        <section class=" my-5 ">
+            <div class="my-5 p-5 container   d-flex flex-column gap-3 col-12 justify-content-center align-items-center">
+                <div
+                    class="row shad p-3 card-bg-colr shadow-lg rounded-4  d-flex flex-column gap-3 col-8 justify-content-center align-items-center ">
+                    <h1 class="text-center main-colr fw-light text-capitalize ">smart login system</h1>
+                    <div class="layer p-5">
+                        <!-- ---------------------------------- -->
+                        <!--    input fields:           -->
+                        <!-- Email -->
+                        <input type="email" class="form-control my-3" id="loginEmail" placeholder="Enter your email">
+                        <!-- password -->
+                        <input type="password" class="form-control my-3" id="loginPassword" 
+                        placeholder="Enter your password">
+                        <!-- -------------------------- -->
+                        <div id="errorMessage"></div> <!-- This is where messages will be shown -->
+                        <!-- btn container contains: btn login-->
+                        <button id="login" class="btn col-12 my-3 login-btn my-2 text-center text-white main-font fs-4">
+                            Login</button>
+                        <!-- ------------------------ -->
+                        <p class="  text-center main-font fs-5 text-dark">Don’t have an account? <a
+                                class="fs-5 text-dark main-font" href="SignUp.html" target="_self">Sign Up</a></p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <script src="JS/bootstrap.js"></script>
+        <script src="JS/all.min.js"></script>
+        <script src="JS/index.js"></script>
+    </body>
+
+</html>
